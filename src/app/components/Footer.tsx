@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
       </div>
       <BackgroundBeamsWithCollision2>
-        <div>
+        <div className="text-neutral-500">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 m-12">
             <div className="flex flex-col gap-4">
               <div>

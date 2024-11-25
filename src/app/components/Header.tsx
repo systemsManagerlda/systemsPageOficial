@@ -24,11 +24,13 @@ export const HeaderPage = () => {
           />
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
-          <NavbarItem isActive>
-            <Link href="#">Início</Link>
+          <NavbarItem>
+            <Link href="/" className="hover:text-white">
+              Início
+            </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#" aria-current="page">
+            <Link href="/servicos" className="hover:text-white">
               Serviços
             </Link>
           </NavbarItem>
@@ -39,12 +41,12 @@ export const HeaderPage = () => {
             </Link>
           </NavbarItem> */}
           <NavbarItem>
-            <Link color="foreground" href="#">
-              Blog
+            <Link href="/sobre" className="hover:text-white">
+              Sobre Nós
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link href="/contactos" className="hover:text-white">
               Contactos
             </Link>
           </NavbarItem>
