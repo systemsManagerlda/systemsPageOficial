@@ -1,18 +1,63 @@
+"use client";
+
+import { GlobeDemo } from "./Globe";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+
 export const HeroSectionPhone = () => {
   return (
     <>
       <div className="min-h-screen sm:hidden gap-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill="#0099FF"
-                d="M26.4,-32.9C41.2,-19,65.1,-17.3,74.6,-6.8C84,3.8,79,23.2,67.8,36C56.7,48.8,39.4,54.9,22.7,59.7C6,64.6,-10.1,68.3,-26.2,65.3C-42.3,62.3,-58.3,52.6,-64,38.9C-69.7,25.1,-65.1,7.2,-61,-9.8C-56.9,-26.9,-53.4,-43.2,-43.3,-57.9C-33.2,-72.7,-16.6,-86,-5.4,-79.5C5.8,-73,11.5,-46.8,26.4,-32.9Z"
-                transform="translate(100 100)"
-              />
-            </svg>
+          <GlobeDemo />
+          <div className="container mx-auto">
+            {" "}
+            <div className="flex items-center text-center">
+              <div className="flex flex-col gap-4">
+                <p className="font-serif font-bold text-6xl">Systems Manager</p>
+                {/* <TextHoverEffect text="Systems Manager" /> */}
+                <TextGenerateEffect
+                  words={"Sistema de Gestão Empresarial ERP e de Facturação."}
+                  className="font-serif font-bold text-4xl text-blue-500"
+                />
+                <TextGenerateEffect
+                  className="mx-4"
+                  words={
+                    "A melhores ferramenta de Gestão Empresarial ERP e de Facturação de Moçambique. Um sistema simples, rápito e poderoso!"
+                  }
+                />
+
+                <div className="flex justify-center">
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="text-center">
+                      {" "}
+                      <p className="text-xl text-bold font-serif">
+                        Software Licenciado pela A.T.
+                      </p>
+                    </div>
+                    {/* <Button
+                    as={Link}
+                    color="primary"
+                    href="#"
+                    variant="bordered"
+                    className="w-56"
+                  >
+                    Solicitar Demo
+                  </Button> */}
+                    <div className="flex justify-center text-center">
+                      <HoverBorderGradient
+                        containerClassName="rounded-full"
+                        as="button"
+                        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+                      >
+                        <span>Solicitar Demo</span>
+                      </HoverBorderGradient>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>01</div>
         </div>
       </div>
     </>

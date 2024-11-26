@@ -1,11 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Button, Link } from "@nextui-org/react";
 import { GlobeDemo } from "./Globe";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import { TextHoverEffect } from "./ui/text-hover-effect";
 
 export const HeroSection = () => {
   return (

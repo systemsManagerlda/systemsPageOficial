@@ -18,7 +18,7 @@ export const MAP = () => {
       <div className="font-serif font-bold text-3xl text-blue-500 text-center py-10">
         <p>Contactos</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">

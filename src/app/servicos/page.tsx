@@ -39,6 +39,22 @@ export default function Serviços() {
                 >
                   Design Gráfico
                 </p>
+                <p
+                  className="text-blue-500 font-bold mb-1 cursor-pointer hover:underline"
+                  onClick={() =>
+                    setIsClicked("Auditoria de Sistemas de Informação")
+                  }
+                >
+                  Auditoria de Sistemas de Informação
+                </p>
+                <p
+                  className="text-blue-500 font-bold mb-1 cursor-pointer hover:underline"
+                  onClick={() =>
+                    setIsClicked("Manutenção de Sistemas Informáticos")
+                  }
+                >
+                  Manutenção de Sistemas Informáticos
+                </p>
               </div>
               <div className="grid col-span-4 h-[550px] overflow-y-scroll">
                 {isClicked === "Gestão Empresarial" && (
@@ -584,6 +600,417 @@ export default function Serviços() {
                             </span>{" "}
                             Uma apresentação visual refinada reforça a
                             credibilidade e a confiança na marca.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </>
+                )}
+                {isClicked === "Auditoria de Sistemas de Informação" && (
+                  <>
+                    {" "}
+                    <div>
+                      <p className="text-blue-500 text-2xl font-bold mb-4">
+                        Auditoria de Sistemas de Informação
+                      </p>
+                      <p className="font-serif text-neutral-500">
+                        A Auditoria de Sistemas de Informação é um serviço
+                        essencial oferecido pela{" "}
+                        <span className="text-blue-500">Systems Manager</span>,
+                        que garante a eficiência, segurança e conformidade das
+                        soluções tecnológicas utilizadas por empresas. Este
+                        serviço identifica vulnerabilidades, avalia processos e
+                        valida a integridade dos sistemas para ajudar as
+                        organizações a manterem a competitividade e a
+                        conformidade com regulamentações.
+                      </p>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Descrição do Serviço
+                      </p>
+                      <p className="font-serif text-neutral-500">
+                        O serviço de Auditoria de Sistemas de Informação da{" "}
+                        <span className="text-blue-500">Systems Manager</span> é
+                        estruturado para avaliar de forma abrangente os sistemas
+                        e infraestruturas de TI, incluindo:
+                      </p>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          a) Avaliação de Segurança:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Verificação de vulnerabilidades em redes, sistemas e
+                            aplicações para mitigar riscos cibernéticos.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          b) Conformidade Regulatória:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Análise da aderência a normas e leis aplicáveis,
+                            como proteção de dados (GDPR) e normas fiscais.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          c) Análise de Processos:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Revisão de fluxos de trabalho em sistemas
+                            empresariais para identificar ineficiências ou
+                            falhas.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          d) Auditoria de Dados:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Validação da integridade, consistência e
+                            confiabilidade das informações armazenadas nos
+                            sistemas.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          e) Auditoria de Software:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Avaliação de licenças, actualizações e desempenho de
+                            softwares utilizados pela empresa.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          f) Testes de Recuperação e Continuidade:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Verificação de planos de recuperação de desastres e
+                            sistemas de backup para garantir a continuidade dos
+                            negócios.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          g) Relatórios e Recomendações:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Fornecimento de relatórios detalhados com insights e
+                            sugestões práticas para melhorar a infraestrutura de
+                            TI.
+                          </li>
+                        </ul>
+                      </div>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Diferenciais do Serviço
+                      </p>
+                      <div className="font-serif text-neutral-500">
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Metodologias Avançadas:
+                            </span>{" "}
+                            Uso de frameworks reconhecidos, como COBIT, ISO
+                            27001 e ITIL, para garantir auditorias abrangentes e
+                            alinhadas às melhores práticas.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Equipa Especializada:
+                            </span>{" "}
+                            Profissionais experientes com profundo conhecimento
+                            técnico e regulatório.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Abordagem Personalizada:
+                            </span>{" "}
+                            Cada auditoria é adaptada às necessidades e
+                            objetivos específicos do cliente.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Foco em Proatividade:
+                            </span>{" "}
+                            Identificação de problemas potenciais antes que se
+                            tornem críticos, minimizando riscos.
+                          </li>
+                        </ul>
+                      </div>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Benefícios para os Clientes
+                      </p>
+                      <div className="font-serif text-neutral-500">
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Segurança Reforçada:
+                            </span>{" "}
+                            Proteção contra ataques cibernéticos e vazamentos de
+                            dados.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Conformidade Garantida:
+                            </span>{" "}
+                            Redução de riscos legais e regulatórios, evitando
+                            multas e sanções.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Optimização de Recursos:
+                            </span>{" "}
+                            Identificação de redundâncias e ineficiências que
+                            podem ser corrigidas.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Confiança Aumentada:
+                            </span>{" "}
+                            Sistemas auditados inspiram mais confiança de
+                            clientes, investidores e parceiros.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Preparação para o Futuro:
+                            </span>{" "}
+                            Garantia de que os sistemas estão prontos para
+                            atender às necessidades crescentes do mercado.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </>
+                )}
+                {isClicked === "Manutenção de Sistemas Informáticos" && (
+                  <>
+                    {" "}
+                    <div>
+                      <p className="text-blue-500 text-2xl font-bold mb-4">
+                        Manutenção de Sistemas Informáticos
+                      </p>
+                      <p className="font-serif text-neutral-500">
+                        A Manutenção de Sistemas Informáticos é um serviço
+                        estratégico oferecido pela{" "}
+                        <span className="text-blue-500">Systems Manager</span>,
+                        voltado para assegurar o desempenho contínuo e confiável
+                        das infraestruturas de TI das empresas. Este serviço
+                        visa prevenir falhas, otimizar processos e garantir a
+                        disponibilidade dos sistemas, permitindo que as
+                        organizações se concentrem em suas operações principais
+                        sem interrupções tecnológicas.
+                      </p>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Descrição do Serviço
+                      </p>
+                      <p className="font-serif text-neutral-500">
+                        O serviço de Manutenção de Sistemas Informáticos da{" "}
+                        <span className="text-blue-500">Systems Manager</span>{" "}
+                        inclui uma ampla gama de atividades que cobrem desde o
+                        suporte preventivo até a resolução de problemas
+                        emergenciais:
+                      </p>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          a) Manutenção Preventiva:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Inspeções regulares para identificar e corrigir
+                            problemas antes que afetem a operação.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Atualizações de software e firmware para garantir a
+                            compatibilidade e a segurança.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          b) Manutenção Corretiva:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Solução rápida e eficaz de problemas técnicos,
+                            reduzindo o tempo de inatividade.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          c) Monitoramento Contínuo:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Uso de ferramentas avançadas para monitorar o
+                            desempenho dos sistemas em tempo real e detectar
+                            anomalias.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          d) Gestão de Atualizações:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Planejamento e execução de atualizações de sistemas,
+                            aplicativos e drivers, minimizando interrupções nas
+                            operações.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          e) Optimização de Sistemas:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Identificação e implementação de melhorias para
+                            aumentar a eficiência e a velocidade dos sistemas.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          f) Suporte Técnico Personalizado:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Atendimento dedicado para resolução de dúvidas e
+                            problemas específicos dos clientes.
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="font-serif text-neutral-500 mt-4">
+                        <span className="text-blue-500">
+                          g) Backup e Recuperação de Dados:
+                        </span>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            Configuração de sistemas de backup e estratégias de
+                            recuperação para proteger dados críticos contra
+                            perdas.
+                          </li>
+                        </ul>
+                      </div>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Diferenciais do Serviço
+                      </p>
+                      <div className="font-serif text-neutral-500">
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Equipe Altamente Qualificada:
+                            </span>{" "}
+                            Profissionais especializados em diversas áreas de
+                            TI, garantindo suporte técnico de alto nível.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">Proatividade:</span>{" "}
+                            Identificação de riscos e ações preventivas para
+                            evitar problemas futuros.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Flexibilidade:
+                            </span>{" "}
+                            Serviços adaptados às necessidades e infraestrutura
+                            de cada cliente, com contratos de manutenção
+                            personalizados.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Disponibilidade Garantida:
+                            </span>{" "}
+                            Suporte técnico disponível para minimizar impactos
+                            em caso de emergências.
+                          </li>
+                        </ul>
+                      </div>
+                      <p className="text-blue-500 text-xl font-bold mt-4 mb-2">
+                        Benefícios para os Clientes
+                      </p>
+                      <div className="font-serif text-neutral-500">
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Redução de Custos:
+                            </span>{" "}
+                            Evita reparos caros e perdas financeiras causadas
+                            por falhas nos sistemas.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Desempenho Optimizado:
+                            </span>{" "}
+                            Sistemas mais rápidos, eficientes e confiáveis,
+                            aumentando a produtividade.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Segurança Reforçada:
+                            </span>{" "}
+                            Proteção contra ameaças cibernéticas por meio de
+                            atualizações e monitoramento constante.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Maior Vida Útil dos Sistemas:
+                            </span>{" "}
+                            A manutenção regular prolonga a durabilidade do
+                            hardware e do software.
+                          </li>
+                        </ul>
+                        <ul className="pl-5 list-square space-y-1 mt-1">
+                          <li className="italic relative before:content-['•'] before:absolute before:-left-5 before:text-neutral-500">
+                            <span className="text-blue-500">
+                              Foco nas Atividades Principais:
+                            </span>{" "}
+                            Reduz a preocupação com problemas de TI, permitindo
+                            que os clientes se concentrem em suas operações
+                            estratégicas.
                           </li>
                         </ul>
                       </div>

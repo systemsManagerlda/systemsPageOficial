@@ -10,6 +10,7 @@ import {
 import { FaLocationDot } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { AiOutlineMinus } from "react-icons/ai";
+import Link from "next/link";
 
 export const Footer = () => {
   const ano = new Date().getFullYear();
@@ -57,10 +58,18 @@ export const Footer = () => {
                 </small>
               </div>
               <div className="flex flex-row gap-2">
-                <FaTwitter className="cursor-pointer hover:text-blue-500" />
-                <FaFacebookF className="cursor-pointer hover:text-blue-500" />
-                <FaInstagram className="cursor-pointer hover:text-blue-500" />
-                <FaWhatsapp className="cursor-pointer hover:text-blue-500" />
+                <a href="https://twitter.com/systems_lda">
+                  <FaTwitter className="cursor-pointer hover:text-blue-500" />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100088889980145">
+                  <FaFacebookF className="cursor-pointer hover:text-blue-500" />
+                </a>
+                <a href="https://www.instagram.com/systems_manager_lda/">
+                  <FaInstagram className="cursor-pointer hover:text-blue-500" />
+                </a>
+                <a href="https://wa.link/fbohza">
+                  <FaWhatsapp className="cursor-pointer hover:text-blue-500" />
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-4">
@@ -69,32 +78,27 @@ export const Footer = () => {
               </h3>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
-                  Início
+                  <Link href="/"> Início</Link>
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
-                  Sobre-nós
+                  <Link href="/sobre">Sobre-nós</Link>
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
-                  Serviços
+                  <Link href="/servicos"> Serviços</Link>
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
-                  Termos e Condições
+                  <Link href="/termos"> Termos e Condições</Link>
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
-                  Politicas de Privacidade
+                  <Link href="/politicas">Politicas de Privacidade</Link>
                 </small>
               </div>
             </div>
@@ -104,37 +108,31 @@ export const Footer = () => {
               </h3>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Gestão Empresarial
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Desenvolvimento de Softwares
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Desaign Gráfico
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Auditoria de Sistemas de Informação
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Manutenção de Sistemas Informáticos
                 </small>
               </div>
               <div>
                 <small className="flex flex-row gap-2 items-center hover:text-blue-500 cursor-pointer">
-                  <AiOutlineMinus />
                   Formações e Capacitações
                 </small>
               </div>
@@ -170,7 +168,7 @@ export const Footer = () => {
           <div className="text-center mb-8">
             {ano}&copy; Copyright{" "}
             <strong>
-              <span>Systems Manager, Lda.</span>
+              <span className="text-blue-500">Systems Manager, Lda.</span>
             </strong>{" "}
             Todos direitos reservados
           </div>

@@ -50,7 +50,7 @@ export const AnimatedTestimonials = ({
     <div className="container mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 py-20 ">
       <div className="relative grid grid-cols-1 md:grid-cols-2  gap-20">
         <div>
-          <div className="relative h-[450px] w-full">
+          <div className="relative h-[450px] w-full hidden md:block">
             <AnimatePresence>
               {testimonials.map((testimonial, index) => (
                 <motion.div

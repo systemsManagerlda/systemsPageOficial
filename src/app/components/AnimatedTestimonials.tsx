@@ -173,7 +173,7 @@ export function AnimatedTestimonialsDemo() {
   ];
   return (
     <>
-      <div className="font-serif font-bold text-3xl text-blue-500 text-center mt-24">
+      <div className="font-serif font-bold text-3xl text-blue-500 text-center mt-24 hidden md:block">
         <p>Planos e Pacotes</p>
       </div>
       <AnimatedTestimonials testimonials={testimonials} />
