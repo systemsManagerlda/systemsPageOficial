@@ -20,7 +20,7 @@ export const MAP = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Card className="max-w-[400px]">
+          <Card className="max-w-[400px] bg-black/45">
             <CardHeader className="flex gap-3">
               <IoMdPin className="h-10 w-10" />
               <div className="flex flex-col">
@@ -41,7 +41,7 @@ export const MAP = () => {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="max-w-[400px]">
+          <Card className="max-w-[400px] bg-black/45">
             <CardHeader className="flex gap-3">
               <FaPhoneAlt className="h-10 w-10" />
               <div className="flex flex-col">
@@ -63,7 +63,7 @@ export const MAP = () => {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="max-w-[400px]">
+          <Card className="max-w-[400px] bg-black/45">
             <CardHeader className="flex gap-3">
               <MdOutlineAlternateEmail className="h-10 w-10" />
               <div className="flex flex-col">
@@ -88,7 +88,7 @@ export const MAP = () => {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="max-w-[400px]">
+          <Card className="max-w-[400px] bg-black/45">
             <CardHeader className="flex gap-3">
               <FaRegCalendarAlt className="h-10 w-10" />
               <div className="flex flex-col">

@@ -69,7 +69,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className="main">
+            <div className="gradient" />
+          </div>
+          {children}
+        </Providers>
       </body>
     </html>
   );
