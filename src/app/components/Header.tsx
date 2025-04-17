@@ -50,11 +50,11 @@ export const HeaderPage = () => {
               Contactos
             </Link>
           </NavbarItem>
-          <NavbarItem>
+          {/* <NavbarItem>
             <Link href="/cursos" className="hover:text-white">
               Cursos
             </Link>
-          </NavbarItem>
+          </NavbarItem> */}
         </NavbarContent>
         <NavbarContent justify="end">
           <Button as={Link} color="primary" href="#" variant="bordered">
