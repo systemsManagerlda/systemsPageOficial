@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Providers } from "./providers";
 import type { Viewport } from "next";
+import { FiltroProvider } from "../app/components/FiltroPage";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -73,7 +74,9 @@ export default function RootLayout({
           <div className="main">
             <div className="gradient" />
           </div>
-          {children}
+          <FiltroProvider>
+            {children}
+          </FiltroProvider>
         </Providers>
       </body>
     </html>

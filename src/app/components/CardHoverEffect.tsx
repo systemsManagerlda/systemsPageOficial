@@ -37,7 +37,7 @@ export const projects = [
       "Suporte pós-lançamento e atualizações regulares para melhorias contínuas.",
   },
   {
-    title: "Desaign Gráfico",
+    title: "Design Gráfico",
     description:
       "Serviços criativos para transmitir a identidade visual de marcas de forma eficaz:",
     link: "#",
